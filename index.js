@@ -93,7 +93,7 @@ const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 // BATAS IMAGE FOLDER //
 const iye = fs.readFileSync('./stik/thumb.jpeg')
-const asw1 = 'https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg'
+const asw1 = 'https://telegra.ph/file/65ba2373970a33460762e.jpg'
 const sip = fs.readFileSync('./stik/oksip.jpeg')
 const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
@@ -944,7 +944,7 @@ sendEphemeral: false,
                 "title": `Whatsapp-BOT\ngιngerѕĸeтcнy вoт. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://telegra.ph/file/65ba2373970a33460762e.jpg",
                 "thumbnail": fake,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : fgif})
@@ -959,7 +959,7 @@ sendEphemeral: false,
                 "body": `wa.me/254792893310`,
                 "mediaType": "10",
                 "mediaUrl": `wa.me/254792893310`,
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://telegra.ph/file/65ba2373970a33460762e.jpg",
                 "thumbnail": iye,
                 "sourceUrl": `wa.me/254792893310`,
 },mentionedJid:[sender]}, quoted : mek})
@@ -973,7 +973,7 @@ sendEphemeral: false,
 "title": `Hello ${pushname}` ,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
-"thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+"thumbnailUrl": "https://telegra.ph/file/65ba2373970a33460762e.jpg",
 "mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
@@ -1572,10 +1572,7 @@ ${readmore}
 > ⬡ ${prefix}trapnime
 
 
-𝗡𝗼𝘁𝗲 : Horny = Bonks💥
-Just Learn to Make Bots 🐶
- 
-𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
+MΛÐΞ БЏ ɠıŋɠɛřŞҠɛŧĆɧყ
 `
 sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
@@ -1583,7 +1580,7 @@ break
 case 'credit':
    dtod = '254792893310'
    dtod1 = '254792893310'
-   dtod2 = '919774340154'
+   dtod2 = '254732989905'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1731,7 +1728,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://www.instagram.com/gingerbreadsketchy')
 break
    
 case 'owner':
@@ -1817,7 +1814,7 @@ case 'buglink':
                 "title": `${virtex2(prefix)}`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://telegra.ph/file/65ba2373970a33460762e.jpg",
                 "thumbnail": fs.readFileSync(`./xeon.jpg`),
                 "sourceUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"}}})
                 break
@@ -3540,7 +3537,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('https://github.com/DGXeon')
+  reply('https://github.com/GingerBreadSketchy')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -3815,7 +3812,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/GingerBreadSketchy/DogeBot"
         },
         "index": 0
       }
