@@ -50,7 +50,7 @@ const runtime = function (seconds) {
 fakenomor = '0@s.whatsapp.net'
 const gcrevoke = ["254792893310-1621430788@g.us"]
 prefix = '#'
-shp = '⬡'
+shp = '🤑'
 owner = "254792893310@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
@@ -63,7 +63,7 @@ const sleep = async (ms) => {
 }
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
-  client.version = [2, 2143,3];
+  client.version = [2, 2142, 12];
   client.browserDescription = ["GingerBot", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
